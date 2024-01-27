@@ -1,0 +1,26 @@
+.card-shadow {
+
+    text-decoration: none;
+}
+
+.card-style {
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-style:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card-style-content {
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.card-style-content:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(90, 88, 88);
+    color: white;
+}
