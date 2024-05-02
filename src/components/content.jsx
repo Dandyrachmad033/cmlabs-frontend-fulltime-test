@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import ApiService from './../data/api_service';
 import SearchForm from "./search-form";
 import MealCard from "./card";
-import '../css/component.css'
+
 
 export default function Content() {
     const [post, setPost] = React.useState(null);
